@@ -8,3 +8,4 @@ dependencies:
   - networkx
   - matplotlib
   - seaborn
+  - networkx
