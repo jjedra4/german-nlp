@@ -5,14 +5,14 @@ import tarfile
 import sys
 
 # --- Configuration ---
-# Direct URL for the 1M mixed-typical sentences corpus from 2011
-DATA_URL = "https://downloads.wortschatz-leipzig.de/corpora/deu_mixed-typical_2011_1M.tar.gz"
+# Direct URL for the 100k mixed-typical sentences corpus from 2011
+DATA_URL = "https://downloads.wortschatz-leipzig.de/corpora/deu_mixed-typical_2011_100K.tar.gz"
 # Relative path to save the data
 DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data')
-FILE_NAME = "deu_mixed-typical_2011_1M.tar.gz"
+FILE_NAME = "deu_mixed-typical_2011_100k.tar.gz"
 FILE_PATH = os.path.join(DATA_DIR, FILE_NAME)
-EXTRACTION_DIR = "deu_mixed-typical_2011_1M"
-EXTRACTED_FILE_NAME = "deu_mixed-typical_2011_1M-sentences.txt"
+EXTRACTION_DIR = "deu_mixed-typical_2011_100k"
+EXTRACTED_FILE_NAME = "deu_mixed-typical_2011_100k-sentences.txt"
 EXTRACTED_FILE_PATH = os.path.join(DATA_DIR, EXTRACTION_DIR, EXTRACTED_FILE_NAME)
 
 def main():
@@ -57,9 +57,16 @@ def main():
         try:
             # Use "r:gz" to open gzipped tar files
             with tarfile.open(FILE_PATH, "r:gz") as tar:
-                print(f"Extracting all files.")
-                tar.extractall(path=DATA_DIR)
-                print(f"Extraction complete. Please check the '{DATA_DIR}/{EXTRACTION_DIR}' for the sentences file.")
+                # Check if the target file is in the archive
+                if EXTRACTED_FILE_NAME in tar.getnames():
+                    tar.extract(EXTRACTED_FILE_NAME, path=DATA_DIR)
+                    print(f"Successfully extracted to '{EXTRACTED_FILE_PATH}'")
+                else:
+                    # If the specific file isn't found, extract all
+                    print(f"Warning: '{EXTRACTED_FILE_NAME}' not found. Extracting all files.")
+                    tar.extractall(path=DATA_DIR)
+                    # You might need to adjust EXTRACTED_FILE_PATH if the filename is different
+                    print(f"Extraction complete. Please check the '{DATA_DIR}' for the sentences file.")
 
         except tarfile.TarError as e:
             print(f"Error extracting the tar file: {e}")
