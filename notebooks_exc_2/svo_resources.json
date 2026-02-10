@@ -1,0 +1,435 @@
+{
+  "language": "English",
+  "notes": "Simple SVO with regular verbs only.",
+  "nouns": {
+    "man": {
+      "plural": "men"
+    },
+    "woman": {
+      "plural": "women"
+    },
+    "child": {
+      "plural": "children"
+    },
+    "book": {
+      "plural": "books"
+    },
+    "car": {
+      "plural": "cars"
+    },
+    "house": {
+      "plural": "houses"
+    },
+    "friend": {
+      "plural": "friends"
+    },
+    "student": {
+      "plural": "students"
+    },
+    "teacher": {
+      "plural": "teachers"
+    },
+    "city": {
+      "plural": "cities"
+    },
+    "country": {
+      "plural": "countries"
+    },
+    "language": {
+      "plural": "languages"
+    },
+    "day": {
+      "plural": "days"
+    },
+    "night": {
+      "plural": "nights"
+    },
+    "year": {
+      "plural": "years"
+    },
+    "time": {
+      "plural": "times"
+    },
+    "apple": {
+      "plural": "apples"
+    },
+    "banana": {
+      "plural": "bananas"
+    },
+    "table": {
+      "plural": "tables"
+    },
+    "chair": {
+      "plural": "chairs"
+    },
+    "window": {
+      "plural": "windows"
+    },
+    "door": {
+      "plural": "doors"
+    },
+    "room": {
+      "plural": "rooms"
+    },
+    "job": {
+      "plural": "jobs"
+    },
+    "family": {
+      "plural": "families"
+    },
+    "dog": {
+      "plural": "dogs"
+    },
+    "cat": {
+      "plural": "cats"
+    },
+    "bird": {
+      "plural": "birds"
+    },
+    "flower": {
+      "plural": "flowers"
+    },
+    "tree": {
+      "plural": "trees"
+    },
+    "road": {
+      "plural": "roads"
+    },
+    "train": {
+      "plural": "trains"
+    },
+    "flight": {
+      "plural": "flights"
+    },
+    "park": {
+      "plural": "parks"
+    },
+    "market": {
+      "plural": "markets"
+    },
+    "game": {
+      "plural": "games"
+    },
+    "movie": {
+      "plural": "movies"
+    },
+    "song": {
+      "plural": "songs"
+    },
+    "program": {
+      "plural": "programs"
+    },
+    "problem": {
+      "plural": "problems"
+    },
+    "question": {
+      "plural": "questions"
+    },
+    "answer": {
+      "plural": "answers"
+    },
+    "example": {
+      "plural": "examples"
+    },
+    "picture": {
+      "plural": "pictures"
+    },
+    "number": {
+      "plural": "numbers"
+    },
+    "price": {
+      "plural": "prices"
+    },
+    "address": {
+      "plural": "addresses"
+    },
+    "phone": {
+      "plural": "phones"
+    },
+    "computer": {
+      "plural": "computers"
+    },
+    "laptop": {
+      "plural": "laptops"
+    },
+    "school": {
+      "plural": "schools"
+    },
+    "university": {
+      "plural": "universities"
+    },
+    "exercise": {
+      "plural": "exercises"
+    },
+    "clock": {
+      "plural": "clocks"
+    },
+    "idea": {
+      "plural": "ideas"
+    },
+    "plan": {
+      "plural": "plans"
+    },
+    "project": {
+      "plural": "projects"
+    },
+    "test": {
+      "plural": "tests"
+    },
+    "career": {
+      "plural": "careers"
+    },
+    "trip": {
+      "plural": "trips"
+    },
+    "appointment": {
+      "plural": "appointments"
+    },
+    "hobby": {
+      "plural": "hobbies"
+    },
+    "toy": {
+      "plural": "toys"
+    },
+    "gift": {
+      "plural": "gifts"
+    },
+    "mirror": {
+      "plural": "mirrors"
+    },
+    "backpack": {
+      "plural": "backpacks"
+    },
+    "newspaper": {
+      "plural": "newspapers"
+    },
+    "bottle": {
+      "plural": "bottles"
+    },
+    "letter": {
+      "plural": "letters"
+    },
+    "box": {
+      "plural": "boxes"
+    },
+    "bus": {
+      "plural": "buses"
+    },
+    "story": {
+      "plural": "stories"
+    },
+    "party": {
+      "plural": "parties"
+    },
+    "team": {
+      "plural": "teams"
+    },
+    "goal": {
+      "plural": "goals"
+    }
+  },
+  "adjectives": [
+    "good",
+    "bad",
+    "big",
+    "small",
+    "beautiful",
+    "ugly",
+    "new",
+    "old",
+    "young",
+    "fast",
+    "slow",
+    "strong",
+    "weak",
+    "warm",
+    "cold",
+    "hot",
+    "friendly",
+    "unfriendly",
+    "loud",
+    "quiet",
+    "bright",
+    "dark",
+    "light",
+    "heavy",
+    "cheap",
+    "expensive",
+    "important",
+    "unimportant",
+    "right",
+    "wrong",
+    "clean",
+    "dirty",
+    "open",
+    "closed",
+    "full",
+    "empty",
+    "soft",
+    "hard",
+    "wet",
+    "dry",
+    "short",
+    "long",
+    "wide",
+    "narrow",
+    "high",
+    "low",
+    "safe",
+    "dangerous",
+    "healthy",
+    "sick",
+    "calm",
+    "nervous",
+    "happy",
+    "sad",
+    "interesting",
+    "boring",
+    "famous",
+    "unknown",
+    "possible",
+    "impossible",
+    "late",
+    "early",
+    "clear",
+    "unsure",
+    "brave",
+    "cowardly",
+    "active",
+    "passive",
+    "comfortable",
+    "uncomfortable",
+    "typical",
+    "strange",
+    "obvious",
+    "unclear",
+    "frustrating",
+    "helpful",
+    "kind",
+    "mean",
+    "proud",
+    "embarrassing",
+    "local",
+    "global",
+    "private",
+    "public",
+    "official",
+    "unofficial",
+    "meaningful",
+    "meaningless",
+    "flexible",
+    "rigid",
+    "modern",
+    "traditional",
+    "creative",
+    "practical",
+    "theoretical",
+    "productive",
+    "inefficient",
+    "efficient",
+    "simple",
+    "complicated"
+  ],
+  "verbs": [
+    "work",
+    "study",
+    "play",
+    "call",
+    "ask",
+    "answer",
+    "show",
+    "use",
+    "need",
+    "want",
+    "like",
+    "love",
+    "hate",
+    "open",
+    "close",
+    "start",
+    "finish",
+    "plan",
+    "visit",
+    "travel",
+    "cook",
+    "watch",
+    "listen",
+    "change",
+    "move",
+    "help",
+    "live",
+    "stay",
+    "try",
+    "carry",
+    "clean",
+    "wash",
+    "wait",
+    "walk",
+    "talk",
+    "smile",
+    "laugh",
+    "cry",
+    "dance",
+    "paint",
+    "draw",
+    "build",
+    "repair",
+    "check",
+    "test",
+    "organize",
+    "share",
+    "copy",
+    "print",
+    "search",
+    "save",
+    "send",
+    "receive",
+    "borrow",
+    "return",
+    "pay",
+    "count",
+    "join",
+    "follow",
+    "decide",
+    "hope",
+    "prefer",
+    "continue",
+    "improve",
+    "explain",
+    "increase",
+    "reduce",
+    "control",
+    "manage",
+    "arrange",
+    "compare",
+    "provide",
+    "prepare",
+    "practice",
+    "train",
+    "enter",
+    "report",
+    "confirm",
+    "accept",
+    "reject",
+    "invite",
+    "support",
+    "design",
+    "deliver",
+    "install",
+    "update",
+    "replace",
+    "connect",
+    "disconnect",
+    "record",
+    "translate",
+    "publish",
+    "import",
+    "export",
+    "balance",
+    "calculate",
+    "review",
+    "reserve",
+    "order",
+    "cancel"
+  ]
+}
